@@ -10,6 +10,7 @@ export default function Footer() {
     { name: "Home", link: "/" },
     { name: "Service", link: "" },
     { name: "About Us", link: "" },
+    { name: "Contact Us", link: "" },
   ];
 
   return (

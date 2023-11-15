@@ -60,7 +60,7 @@ const HowIts = () => {
             {items.map((item, index) => (
               <div
                 key={index}
-                className={`px-5 py-5 shadow-md border border-white flex flex-col bg-white rounded-lg gap-4 transition-all duration-500 ${
+                className={`px-5 py-5 shadow-md border border-white flex flex-col bg-white cursor-pointer rounded-lg gap-4 transition-all duration-500 ${
                   animatedIndex === index ? "transform scale-110" : ""
                 }`}
                 onMouseEnter={() => startAnimation(index)}
