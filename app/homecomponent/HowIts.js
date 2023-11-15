@@ -23,30 +23,30 @@ const HowIts = () => {
     {
       icon: <PiNumberSquareOneFill size={35} />,
       imageSrc: "/assest/image1.svg",
-      title: "Sign up with free registration",
+      title: "Install the app",
       description:
-        "lwjjfuewg fu woidoowynd uwd uiiwduiwgd dnwydnwydw d wdwudhwhdw",
+        "visit to playstore app and search Cookr app",
     },
     {
       icon: <PiNumberSquareTwoFill size={35} />,
       imageSrc: "/assest/image2.svg",
-      title: "Sign up with free registration",
+      title: "Download",
       description:
-        "lwjjfuewg fu woidoowynd uwd uiiwduiwgd dnwydnwydw d wdwudhwhdw",
+        "click the install button for Download",
     },
     {
       icon: <PiNumberSquareThreeFill size={35} />,
       imageSrc: "/assest/image3.svg",
       title: "Sign up with free registration",
       description:
-        "lwjjfuewg fu woidoowynd uwd uiiwduiwgd dnwydnwydw d wdwudhwhdw",
+        "Open the app and  fill the basic details and order your fav food ",
     },
     {
       icon: <PiNumberSquareFourFill size={35} />,
       imageSrc: "/assest/image1.svg",
-      title: "Sign up with free registration",
+      title: "Delivery",
       description:
-        "lwjjfuewg fu woidoowynd uwd uiiwduiwgd dnwydnwydw d wdwudhwhdw",
+        "delivery man will delivery to you and enjoy the tasty food ",
     },
   ];
 
@@ -54,7 +54,7 @@ const HowIts = () => {
     <div className="bg-[orange] ">
       <div className="brand-container py-16 px-5">
         <div className="flex flex-col justify-center items-center gap-6">
-          <h1>How It Works</h1>
+          <h1 className="text-[white]">How It Works</h1>
           <h3>Follow the instructions to Install the App</h3>
           <div className="grid grid-cols-1 xl:grid-cols-4 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {items.map((item, index) => (
@@ -74,7 +74,7 @@ const HowIts = () => {
                   className="w-full py-4 pt-5"
                 />
                 <h1>{item.title}</h1>
-                <p>{item.description}</p>
+                <p className="leading-normal text-[18px] font-medium">{item.description}</p>
               </div>
             ))}
           </div>

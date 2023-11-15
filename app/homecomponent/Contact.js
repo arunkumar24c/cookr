@@ -17,7 +17,7 @@ const Contact = () => {
   return (
     <div className="bg-[orange]">
       <div className="brand-container px-5 py-5">
-        <h1 className="text-center  text-[35px]">Contact us</h1>
+        <h1 className="text-center text-[white] text-[35px]">Contact us</h1>
         <p className="text-center py-2 text-[18px] ">Get in touch</p>
         <div className="flex flex-col xl:flex-row lg:flex-row md:flex-col py-5 gap-4">
           {/* left */}
