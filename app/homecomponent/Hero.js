@@ -153,7 +153,7 @@ const PopularDestinationCard = (props) => {
             width={500}
             height={500}
             className=" bg-transparent"
-            alt="#"
+            alt="img"
           />
         </div>
         <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full flex-col flex justify-center">

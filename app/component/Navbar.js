@@ -7,7 +7,7 @@ import { CiMenuFries } from "react-icons/ci";
 
 const Navbar = () => {
   const Links = [
-    { name: "Home", link: "" },
+    { name: "Home", link: "/" },
     { name: "Service", link: "" },
     { name: "About Us", link: "" },
     

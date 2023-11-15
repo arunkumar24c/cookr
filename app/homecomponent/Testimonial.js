@@ -10,33 +10,33 @@ import "glider-js/glider.min.css";
 const testimonialData = [
   {
     id: 1,
-    name: "",
-    img: "",
+    name: "chennai",
+    img: "/assest/log1.svg",
   },
   {
     id: 2,
-    name: "",
-    img: "",
+    name: "Hyderabad",
+    img: "/assest/log2.svg",
   },
   {
     id: 3,
-    name: "",
-    img: "",
+    name: "Bangalore",
+    img: "/assest/log3.svg",
   },
   {
     id: 4,
-    name: "",
-    img: "",
+    name: "Delhi",
+    img: "/assest/log1.svg",
   },
   {
     id: 5,
-    name: "",
-    img: "",
+    name: "Kerala",
+    img: "/assest/log1.svg",
   },
   {
     id: 6,
-    name: "",
-    img: "",
+    name: "selam",
+    img: "/assest/log2.svg",
   },
 ];
 
@@ -125,17 +125,18 @@ const Testimonial = () => {
   );
 };
 
-const PopularDestinationCard = () => {
+const PopularDestinationCard = ({ img, name }) => {
   return (
-    <div className="brand-container py-5 mt-5 px-5 hover:shadow-lg shadow-md border ">
-      <div className="">
+    <div className="brand-container py-5 mt-5 px-5  ">
+      <div className="flex flex-col justify-center px-5 py-5 items-center gap-3 shadow-md">
         <Image
-          src="/assest/logo2.svg"
+          src={img}
           width={160}
           height={160}
-          className="rounded-full "
-          alt="imgs"
+          className="w-auto"
+          alt={name}
         />
+        <h3>{name}</h3>
       </div>
     </div>
   );

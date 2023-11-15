@@ -8,12 +8,11 @@ const Contact = () => {
   const [isAnimating, setIsAnimating] = useState(false);
 
   const handleClick = () => {
-    // Toggle animation class
+    
     setIsAnimating(true);
     setTimeout(() => {
       setIsAnimating(false);
-    }, 3000); // Change the duration as needed
-    // Add your logic for sending the message here
+    }, 3000); 
   };
   return (
     <div className="bg-[orange]">

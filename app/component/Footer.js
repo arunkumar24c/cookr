@@ -2,12 +2,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { BsInstagram, BsLinkedin, BsYoutube, BsWhatsapp } from "react-icons/bs";
+import { BsInstagram, BsYoutube, BsWhatsapp } from "react-icons/bs";
 import { RiTwitterXLine } from "react-icons/ri";
 
 export default function Footer() {
   const Links = [
-    { name: "Home", link: "" },
+    { name: "Home", link: "/" },
     { name: "Service", link: "" },
     { name: "About Us", link: "" },
   ];
