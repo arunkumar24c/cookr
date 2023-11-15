@@ -25,7 +25,7 @@ const HowIts = () => {
       imageSrc: "/assest/image1.svg",
       title: "Install the app",
       description:
-        "visit to playstore app and search Cookr app",
+        "visit to playstore app and search Food Delivery app",
     },
     {
       icon: <PiNumberSquareTwoFill size={35} />,

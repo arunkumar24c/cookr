@@ -25,13 +25,7 @@ const Navbar = () => {
         <div className="md:flex items-center justify-between bg-[#fec72f] py-8 md:px-10 px-7">
           <div className="flex gap-2 cursor-pointer">
             <Link href="/">
-              <Image
-                src={"/assest/logo.svg"}
-                width={150}
-                height={50}
-                alt="img"
-                className=""
-              />
+              <h1>Food Delivery</h1>
             </Link>
           </div>
           <div

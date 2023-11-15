@@ -20,13 +20,7 @@ export default function Footer() {
           {/* text  */}
           <div className="text-white  flex flex-col ">
             <Link href="/">
-              <Image
-                src={"/assest/logo.svg"}
-                width={150}
-                height={50}
-                alt="imgs"
-                className=""
-              />
+              <h1>Food Delivery</h1>
             </Link>
           </div>
           {/* link */}
@@ -88,7 +82,7 @@ export default function Footer() {
                   <RiTwitterXLine size={25} />
                 </a>
               </p>
-              
+
               <p className=" text-[white] cursor-pointer hover:text-[orange] rounded-md">
                 <a href="" target="_blank">
                   <BsYoutube size={25} />
