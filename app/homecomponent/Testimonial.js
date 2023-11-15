@@ -134,6 +134,7 @@ const PopularDestinationCard = () => {
           width={160}
           height={160}
           className="rounded-full "
+          alt="imgs"
         />
       </div>
     </div>

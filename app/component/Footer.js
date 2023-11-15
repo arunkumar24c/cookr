@@ -23,7 +23,7 @@ export default function Footer() {
                 src={"/assest/logo.svg"}
                 width={150}
                 height={50}
-                alt="#"
+                alt="imgs"
                 className=""
               />
             </Link>

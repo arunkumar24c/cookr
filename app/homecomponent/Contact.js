@@ -127,7 +127,7 @@ const Contact = () => {
               width={300}
               height={300}
               className="w-full"
-              alt=""
+              alt="imgg"
               src={"/assest/image3.svg"}
             />
           </div>

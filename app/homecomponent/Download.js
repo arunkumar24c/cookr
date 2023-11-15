@@ -10,17 +10,17 @@ const Download = () => {
           <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full flex flex-col gap-5">
             <h1>Download for a taste of homemade food.</h1>
             <p className="text-[18px] font-medium text-justify leading-normal">
-              Are you craving for some homemade food but don't have the time or
-              energy to prepare it yourself? Download our mobile app for a
-              convenient and delicious solution. With just a few taps on your
+              Are you craving for some homemade food but don&apos;t have the
+              time or energy to prepare it yourself? Download our mobile app for
+              a convenient and delicious solution. With just a few taps on your
               smartphone, you can enjoy the taste of homemade meals without
               having to leave your home.{" "}
             </p>
             <p className="text-[18px] font-medium text-justify leading-normal">
               Not only is our app a convenient way to order food, but it also
               supports local home chefs in your community. By using our app,
-              you're helping these chefs share their passion for cooking and
-              provide delicious, homemade meals to customers like you.{" "}
+              you&apos;re helping these chefs share their passion for cooking
+              and provide delicious, homemade meals to customers like you.{" "}
             </p>
             <p className="text-[18px] font-medium text-justify leading-normal">
               Plus, our app is easy to use and offers a secure payment process,
@@ -34,12 +34,14 @@ const Download = () => {
                 width={200}
                 height={50}
                 className=""
+                alt="imgss"
               />
               <Image
                 src={"/assest/play1.png"}
                 width={200}
                 height={50}
                 className=""
+                alt="imgss"
               />
             </div>
           </div>
@@ -49,6 +51,7 @@ const Download = () => {
               width={400}
               height={200}
               className="w-full"
+              alt="imgss"
             />
           </div>
         </div>

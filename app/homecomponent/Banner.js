@@ -14,7 +14,7 @@ const Banner = () => {
                 width={200}
                 height={500}
                 className=""
-                alt="#"
+                alt="img"
               />
               <div className="flex flex-col  justify-center px-16 gap-3">
                 <h1 className="font-bold text-[25px]">

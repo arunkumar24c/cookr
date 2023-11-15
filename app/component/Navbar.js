@@ -10,8 +10,7 @@ const Navbar = () => {
     { name: "Home", link: "" },
     { name: "Service", link: "" },
     { name: "About Us", link: "" },
-    { name: "Gallery", link: "" },
-    { name: "Contact Us", link: "" },
+    
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +29,7 @@ const Navbar = () => {
                 src={"/assest/logo.svg"}
                 width={150}
                 height={50}
-                alt="#"
+                alt="img"
                 className=""
               />
             </Link>

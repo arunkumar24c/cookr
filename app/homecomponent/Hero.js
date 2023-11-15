@@ -20,7 +20,7 @@ const data = [
     title: "The Power of a  Homemade Meal",
 
     description:
-      "At Cookr, we're rebuilding the food system from scratch, redefining who can participate in the food economy, and returning personal connection to the making, eating, and sharing of food.",
+      "At Cookr, we&apos;re rebuilding the food system from scratch, redefining who can participate in the food economy, and returning personal connection to the making, eating, and sharing of food.",
     para: " We are an online marketplace for local, food safety certified cooks to connect with customers in their community and earn a meaningful income selling homemade dishes",
     titles:
       "Homemade is the aroma of your childhood kitchen, the laughter around a family table, the taste of locally sourced produce; its memories, nostalgia, and tradition. Its building bridges between cultures and people that make us whole.",
@@ -30,7 +30,7 @@ const data = [
     title: "The Power of a Homemade Meal",
 
     description:
-      "At Cookr, we're rebuilding the food system from scratch, redefining who can participate in the food economy, and returning personal connection to the making, eating, and sharing of food.",
+      "At Cookr, we&apos;re rebuilding the food system from scratch, redefining who can participate in the food economy, and returning personal connection to the making, eating, and sharing of food.",
     para: " We are an online marketplace for local, food safety certified cooks to connect with customers in their community and earn a meaningful income selling homemade dishes",
     titles:
       "Homemade is the aroma of your childhood kitchen, the laughter around a family table, the taste of locally sourced produce; its memories, nostalgia, and tradition. Its building bridges between cultures and people that make us whole.",
@@ -40,7 +40,7 @@ const data = [
     title: "The Power of a Homemade Meal",
 
     description:
-      "At Cookr, we're rebuilding the food system from scratch, redefining who can participate in the food economy, and returning personal connection to the making, eating, and sharing of food.",
+      "At Cookr, we&apos;re rebuilding the food system from scratch, redefining who can participate in the food economy, and returning personal connection to the making, eating, and sharing of food.",
     para: " We are an online marketplace for local, food safety certified cooks to connect with customers in their community and earn a meaningful income selling homemade dishes",
     titles:
       "Homemade is the aroma of your childhood kitchen, the laughter around a family table, the taste of locally sourced produce; its memories, nostalgia, and tradition. Its building bridges between cultures and people that make us whole.",
@@ -50,7 +50,7 @@ const data = [
     title: "The Power of a ",
     span: "Homemade Meal",
     description:
-      "At Cookr, we're rebuilding the food system from scratch, redefining who can participate in the food economy, and returning personal connection to the making, eating, and sharing of food.",
+      "At Cookr, we&apos;re rebuilding the food system from scratch, redefining who can participate in the food economy, and returning personal connection to the making, eating, and sharing of food.",
     para: " We are an online marketplace for local, food safety certified cooks to connect with customers in their community and earn a meaningful income selling homemade dishes",
     titles:
       "Homemade is the aroma of your childhood kitchen, the laughter around a family table, the taste of locally sourced produce; its memories, nostalgia, and tradition. Its building bridges between cultures and people that make us whole.",
