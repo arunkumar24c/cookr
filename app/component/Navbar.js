@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="md:flex items-center justify-between bg-[#fec72f] py-8 md:px-10 px-7">
           <div className="flex gap-2 cursor-pointer">
             <Link href="/">
-              <h1>Food Delivery</h1>
+              <h1>YAMMEY </h1>
             </Link>
           </div>
           <div

@@ -20,7 +20,7 @@ export default function Footer() {
           {/* text  */}
           <div className="text-white  flex flex-col ">
             <Link href="/">
-              <h1>Food Delivery</h1>
+              <h1>YAMMEY</h1>
             </Link>
           </div>
           {/* link */}
